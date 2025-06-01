@@ -9,7 +9,7 @@
 # def add(a,b): # function definition parameters == a,b
 #     print(a+b)
 
-# add(10,20) # function call arguments == 10,20
+# print(add(10,20)) # function call arguments == 10,20
 # add(20,30) # function call
 
 #arguments vs parameters
@@ -82,13 +82,13 @@
 #map()
 # map(function,iterable) func + loop
 
-def square(x): #func
+# def square(x): #func
     # ans = [] # empty list
     # for i in x:
     #     ans.append(i*i)
-    return x*x
+    # return x*x
 
-list1 = [1,2,3,4,5] 
+# list1 = [1,2,3,4,5] 
 # list_ans = square(list1)
 # print(list_ans) # function call
 # list_ans2 = [] # empty list
@@ -97,4 +97,4 @@ list1 = [1,2,3,4,5]
 
 # print(list_ans2) # function call
 
-print(tuple(map(square,list1))) # map function
+# print(tuple(map(square,list1))) # map function

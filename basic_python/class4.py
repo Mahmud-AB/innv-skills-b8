@@ -86,7 +86,7 @@
 # print(list1)
 
 #list inbuilt functions
-# list2 = [2,5,1,6,3,8,4,7,10,9]
+list2 = [2,5,1,6,3,8,[4,7,10,9]]
 # list3 = [2,5,1,6,3,8,4,7,10,9]
 
 #sort & reverse
@@ -104,12 +104,16 @@
 
 #copy
 # shallow copy
+# list2 = [2,5,1,6,3,8,[4,7,10,9]]
 # list3 = list2
-# print("list3",list3)
-# list3.append(100)
 # print("list2",list2)
+# print("list3",list3)
+# # list3.append(100)
+# list3[6].append(200)
+# print("list2",list2)
+# print("list3",list3)
 
-#deep copy
+# deep copy
 # list3 = list2.copy()
 # print("list3",list3)
 # list3.append(200)

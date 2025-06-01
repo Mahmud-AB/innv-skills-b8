@@ -1,0 +1,7 @@
+1.class > blueprint / template for creating objects
+2.object > instance of a class
+# OOP Principles
+3.Inheritance > allows a class to use anothes class properties and methods
+4.Polymorphism > allows a class to use same name method from diffrent class
+5.Encapsulation > restricts access to certain properties and methods
+6.Abstraction > hides complex implementation details and shows only the essential features
